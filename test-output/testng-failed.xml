@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.focus.listeners.Listener"/>
+  </listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.focus.testcases.URLBrowserTest"/>
+      <class name="com.focus.testcases.LoginPageCompanyCreationTest"/>
+      <class name="com.focus.testcases.LoginPageSignInTest"/>
+      <class name="com.focus.testcases.HPWrapperLayoutTest"/>
+      <class name="com.focus.testcases.MasterAccountsTest"/>
+      <class name="com.focus.testcases.SmokeCurrencyTest"/>
+      <class name="com.focus.testcases.MasterUnitTest"/>
+      <class name="com.focus.testcases.MasterBinsTest"/>
+      <class name="com.focus.testcases.MasterDepartmentTest"/>
+      <class name="com.focus.testcases.MasterWarehouseTest"/>
+      <class name="com.focus.testcases.MasterItemTest"/>
+      <class name="com.focus.testcases.SmokePreferencesTest"/>
+      <class name="com.focus.testcases.SmokeDCTest"/>
+      <class name="com.focus.testcases.SettingsWizardAndStandardRateDefintionTest"/>
+      <class name="com.focus.testcases.SecuritySmokeTest"/>
+      <class name="com.focus.testcases.MasterBuyingAndSellingTest"/>
+      <class name="com.focus.testcases.SmokeDocCustViewTest"/>
+      <class name="com.focus.testcases.ConfigureMasterTest"/>
+      <class name="com.focus.testcases.SmokeTransactionAuthorizationDefinitionTest"/>
+      <class name="com.focus.testcases.SmokeMasterAuthorizationDefinitionTest"/>
+      <class name="com.focus.testcases.SmokeDesignWorkFlowTest"/>
+      <class name="com.focus.testcases.SmokeBudgetTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.focus.testcases.SmokePreferencesTest">
+        <methods>
+          <include name="beforeMethodExecution"/>
+          <include name="checkPreferencesOption"/>
+          <include name="checkWarehouseMangementInPreferences"/>
+          <include name="afterMethodExecution"/>
+        </methods>
+      </class> <!-- com.focus.testcases.SmokePreferencesTest -->
+      <class name="com.focus.testcases.SmokeTransactionAuthorizationDefinitionTest">
+        <methods>
+          <include name="checkCompanyExpandInFieldsTabOptions"/>
+          <include name="checkOkBtnInEscalationTabOptions"/>
+          <include name="checkCreatedEmailInEmailHedaerTemplate"/>
+          <include name="checkSaveButtonWithoutSMSTemplateName"/>
+          <include name="checkBodyControlLayout"/>
+          <include name="checkSaveButtonWithoutTemplateName"/>
+          <include name="checkEditAuthorizationSettings"/>
+          <include name="checkCreateAuthorizationInMaterialRequistion"/>
+          <include name="checkEditClickOnEmailTemplate"/>
+          <include name="checkSaveAlertsTemplateWithMandatoryInputs"/>
+          <include name="checkExitOptionInLayout"/>
+          <include name="checkSaveSMSTemplateWithMandatoryInputs"/>
+          <include name="checkUserDropdownOptions"/>
+          <include name="checkFieldsDragInHeaderOptions"/>
+          <include name="checkSavedAlertTemplateInTemplate"/>
+          <include name="checkNewOption"/>
+          <include name="checkSaveAuthorizationWithAlertsAndEsclations"/>
+          <include name="checkEditCreateEmailTemplateHeader"/>
+          <include name="checkSavedEmailTemplateInEmailTemplate"/>
+          <include name="checkSavingTransactionAuthorization"/>
+          <include name="checkSaveButtonWithoutAlertsTemplateName"/>
+          <include name="checkDisplayingAuthorizationName"/>
+          <include name="checkSaveOptionInEmailTemplate"/>
+          <include name="checkSaveOptionWithLayoutName"/>
+          <include name="checkUserDetailsOptions"/>
+          <include name="checkEmailTemplateHeaderOption"/>
+          <include name="checkSaveWithAllMandatoryInputs"/>
+          <include name="checkCancelButton"/>
+          <include name="checkOkButtonOnSelectionEmailHeaderTemplate"/>
+          <include name="checkCancelInAlertDeleteOption"/>
+          <include name="checkPreviewOption"/>
+          <include name="checkSaveOptionWithoutLayoutName"/>
+          <include name="checkEditOnSelectAlertsTabOptions"/>
+          <include name="checkSMSTemplateOption"/>
+          <include name="checkHeaderOptions"/>
+          <include name="checkOkInAlertDeleteOption"/>
+          <include name="checkTemplateNameWithoutTemplateText"/>
+          <include name="checkSavedSMSTemplateInTemplate"/>
+          <include name="checkCloseOptionInAlertsTemplateWithMandatoryInputs"/>
+          <include name="checkSavingTransactionAuthorizationOnSelctingEmailHeaderTemplate"/>
+          <include name="checkOkButtonOnSelectingUser"/>
+          <include name="beforeMethodExecution"/>
+          <include name="checkAlertsTemplateOption"/>
+          <include name="checkCreateAuthorizationInPurchasesOrder"/>
+          <include name="checkCloseOptionInSMSTemplateWithMandatoryInputs"/>
+          <include name="checkCloseAndLogoutTheCompany"/>
+          <include name="checkBodyOptions"/>
+          <include name="checkCloseOption"/>
+          <include name="checkFieldsTabOptions"/>
+          <include name="checkAlertMessageOnDeleteAuthorization"/>
+          <include name="afterMethodExecution"/>
+          <include name="checkMiscellaneousOptions"/>
+          <include name="checkBodyPropertiesControl"/>
+        </methods>
+      </class> <!-- com.focus.testcases.SmokeTransactionAuthorizationDefinitionTest -->
+      <class name="com.focus.testcases.URLBrowserTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="beforeMethodExecution"/>
+          <include name="generateReports"/>
+          <include name="intialiseReports"/>
+          <include name="openBrowser"/>
+          <include name="afterMethodExecution"/>
+        </methods>
+      </class> <!-- com.focus.testcases.URLBrowserTest -->
+      <class name="com.focus.testcases.SmokeCurrencyTest">
+        <methods>
+          <include name="checkValuesInUpdatedExchangeRateOptionInCurrencyMaster"/>
+          <include name="beforeMethodExecution"/>
+          <include name="checkValuesInSavedExchangeRate"/>
+          <include name="checkValuesInSavedExchangeRateOptionInCurrencyMaster"/>
+          <include name="checkSaveExchangeRateOfCurrencyMaster"/>
+          <include name="afterMethodExecution"/>
+        </methods>
+      </class> <!-- com.focus.testcases.SmokeCurrencyTest -->
+      <class name="com.focus.testcases.MasterUnitTest">
+        <methods>
+          <include name="beforeMethodExecution"/>
+          <include name="afterMethodExecution"/>
+        </methods>
+      </class> <!-- com.focus.testcases.MasterUnitTest -->
+      <class name="com.focus.testcases.MasterDepartmentTest">
+        <methods>
+          <include name="beforeMethodExecution"/>
+          <include name="afterMethodExecution"/>
+          <include name="verifyBinFirstLevel"/>
+        </methods>
+      </class> <!-- com.focus.testcases.MasterDepartmentTest -->
+      <class name="com.focus.testcases.MasterItemTest">
+        <methods>
+          <include name="beforeMethodExecution"/>
+          <include name="verifyUpdateCreatedFieldInCreateCreateTabDisplayInCustomizeTab"/>
+          <include name="verifyWarehouseFirstLevel"/>
+          <include name="verifyOkInDeleteValidationMessage"/>
+          <include name="afterMethodExecution"/>
+        </methods>
+      </class> <!-- com.focus.testcases.MasterItemTest -->
+      <class name="com.focus.testcases.HPWrapperLayoutTest">
+        <methods>
+          <include name="beforeMethodExecution"/>
+          <include name="afterMethodExecution"/>
+        </methods>
+      </class> <!-- com.focus.testcases.HPWrapperLayoutTest -->
+      <class name="com.focus.testcases.SmokeBudgetTest">
+        <methods>
+          <include name="checkTransferReviseBudget"/>
+          <include name="checkAlertMessageOnDeleteAuthorization"/>
+          <include name="checkFieldsTabMiscellaneousOptions"/>
+          <include name="checkSavingDefineBudgetAuthorization"/>
+          <include name="checkVerifingDetailsOfSavedPurchaseOrdersVouchersInHomepage"/>
+          <include name="checkValidateCheckbugetDropdownForMaterialRequisitionasPrecommitted"/>
+          <include name="checkPendingBudgetInAuthorizeUser"/>
+          <include name="checkClickOnAlertsInWrapperLayoutAuthorizeUser"/>
+          <include name="checkAuthorizationInMaterialRequisitionWithUserAllOptionsST"/>
+          <include name="checkAlertsInWrapperLayoutAuthorizeUser"/>
+          <include name="checkEmailTemplateCompanyExpandInFieldsTabOptions"/>
+          <include name="checkLogoutAndLoginWithSUforPO"/>
+          <include name="checkLogoutTheCompany"/>
+          <include name="checkReviseBudgetDetails"/>
+          <include name="checkVerifingDetailsOfSavedMaterialRequisitionVouchersInHomepage"/>
+          <include name="checkOkButtonOnSelectingUser"/>
+          <include name="checkEditOnSelectAlertsTabOptions"/>
+          <include name="checkSavingMaterialRequisitionVoucher"/>
+          <include name="checSavedBudgetInfoThroughSplitOptionDefineBudget"/>
+          <include name="checkValidateCheckbugetDropdownForPurchaseVouchersasNone"/>
+          <include name="checkPurchasesOrderVoucherToDisplayLinksWithoutAuthorization"/>
+          <include name="checkOkInAlertDeleteOption"/>
+          <include name="checkSaveButtonWithCondition"/>
+          <include name="checkEmailTemplateUserExpandInFieldsTabOptions"/>
+          <include name="checkLogoutAndLoginWithUserAllOptionsSTToAuthorizePurchaseOrder"/>
+          <include name="checkCloseButtonInAuthorizeBudget"/>
+          <include name="checkSaveWithAllMandatoryInputs"/>
+          <include name="checkCancelButton"/>
+          <include name="checkAddReduceReviseBudget"/>
+          <include name="checkCancelInAlertDeleteOption"/>
+          <include name="checkLogoutAndLoginWithSU"/>
+          <include name="checkAuthorizationInPurchaseOrderWithUserAllOptionsST"/>
+          <include name="checkSavedNameDisplayInNameTextBox"/>
+          <include name="checkSavedEmailTemplateInEmailTemplate"/>
+          <include name="checkSavePurchaseVoucherWithSavedPurchaseOrder"/>
+          <include name="checkPurchasesOrderVoucherToDisplayLinksAfterAuthorizationAndSavePurchaseOrder"/>
+          <include name="checkLogoutAndLoginWithSUForPurchasesVoucher"/>
+          <include name="beforeMethodExecution"/>
+          <include name="checkExitOptionInLayout"/>
+          <include name="checkReviseMenuTransferBudgets"/>
+          <include name="checkSaveAuthorizationWithConditionAndAlerts"/>
+          <include name="checkLogoutAndLoginWithUserAllOptions"/>
+          <include name="checkUserDropdownOptions"/>
+          <include name="checkFieldsDragInHeaderOptions"/>
+          <include name="checkSavedAlertTemplateInTemplate"/>
+          <include name="checkCreatedEmailInEmailHedaerTemplate"/>
+          <include name="checkEditBudgetAuthorizationSettings"/>
+          <include name="checkValidateCheckbugetDropdownForPurchaseOrdersascommitted"/>
+          <include name="checkDesignAreaPrintScreen"/>
+          <include name="checkFieldsTabBudgetFieldsOptions"/>
+          <include name="checkViewOptionInReviseBudget"/>
+          <include name="afterMethodExecution"/>
+        </methods>
+      </class> <!-- com.focus.testcases.SmokeBudgetTest -->
+      <class name="com.focus.testcases.LoginPageSignInTest">
+        <methods>
+          <include name="beforeMethodExecution"/>
+          <include name="afterMethodExecution"/>
+        </methods>
+      </class> <!-- com.focus.testcases.LoginPageSignInTest -->
+      <class name="com.focus.testcases.MasterWarehouseTest">
+        <methods>
+          <include name="beforeMethodExecution"/>
+          <include name="verifyWarehouseFirstLevel"/>
+          <include name="verifyCustomizeMasterTabMasterFieldsOption"/>
+          <include name="afterMethodExecution"/>
+        </methods>
+      </class> <!-- com.focus.testcases.MasterWarehouseTest -->
+      <class name="com.focus.testcases.SmokeDCTest">
+        <methods>
+          <include name="beforeMethodExecution"/>
+          <include name="checkDeleteoptionInFooterTabEditScreeninPurchaseVoucher"/>
+          <include name="checkDocumentTagsInMaterialReceiptNotes"/>
+          <include name="afterMethodExecution"/>
+          <include name="checkVouchersInLoadMastersOfPaymentNewVoucherType"/>
+        </methods>
+      </class> <!-- com.focus.testcases.SmokeDCTest -->
+      <class name="com.focus.testcases.MasterBuyingAndSellingTest">
+        <methods>
+          <include name="beforeMethodExecution"/>
+          <include name="checkFileExportedIntoFile"/>
+          <include name="verifyImportDataOption"/>
+          <include name="afterMethodExecution"/>
+        </methods>
+      </class> <!-- com.focus.testcases.MasterBuyingAndSellingTest -->
+      <class name="com.focus.testcases.SmokeDocCustViewTest">
+        <methods>
+          <include name="checkRolesInViewsTabUnderDocumentCustomization"/>
+          <include name="checkEditinginBodyFieldAndFooterFieldinInViewTab"/>
+          <include name="beforeMethodExecution"/>
+          <include name="checkLoginUsersinViewsTabUnderDocumentCustomization"/>
+          <include name="checkSaveTriggerWithRaiseDocumentOptionInTriggers"/>
+          <include name="checkRaiseDocumentOptionInTriggers"/>
+          <include name="checkSaveOptionInTriggerTab"/>
+          <include name="checkCreatingViewInViewTab"/>
+          <include name="afterMethodExecution"/>
+          <include name="checkDeleteinCreatedViewInViewTab"/>
+          <include name="checkDeleteTriggerOptionInTriggers"/>
+          <include name="checkEditingInTriggersTabUnderPVVATView"/>
+        </methods>
+      </class> <!-- com.focus.testcases.SmokeDocCustViewTest -->
+      <class name="com.focus.testcases.SettingsWizardAndStandardRateDefintionTest">
+        <methods>
+          <include name="beforeMethodExecution"/>
+          <include name="checkVatTaxCode"/>
+          <include name="checkUtilitiesSubMenu"/>
+          <include name="checkVatTaxCodeImporting"/>
+          <include name="checkVATMastersTaxCode"/>
+          <include name="afterMethodExecution"/>
+        </methods>
+      </class> <!-- com.focus.testcases.SettingsWizardAndStandardRateDefintionTest -->
+      <class name="com.focus.testcases.LoginPageCompanyCreationTest">
+        <methods>
+          <include name="beforeMethodExecution"/>
+          <include name="afterMethodExecution"/>
+        </methods>
+      </class> <!-- com.focus.testcases.LoginPageCompanyCreationTest -->
+      <class name="com.focus.testcases.MasterBinsTest">
+        <methods>
+          <include name="beforeMethodExecution"/>
+          <include name="verifyBinFirstLevel"/>
+          <include name="afterMethodExecution"/>
+        </methods>
+      </class> <!-- com.focus.testcases.MasterBinsTest -->
+      <class name="com.focus.testcases.SmokeDesignWorkFlowTest">
+        <methods>
+          <include name="checkMappingFromExcessinStocksToShortageinStocks"/>
+          <include name="checkSelectingAutoSalesOrderfromVoucherlist"/>
+          <include name="verifySavingVouchersWithoutHavingLink"/>
+          <include name="checkLinkBetweenStockTransferToSalesInvoiceN"/>
+          <include name="checkMovingPurchaseVoucherToPosition"/>
+          <include name="checkSelectingItemOptionBetweenPurchaseOrdersAndPurchaseVoucher"/>
+          <include name="verifyClearButton"/>
+          <include name="checkSelectingItemOptionBetweenMRandPurchaseOrders"/>
+          <include name="verifyLinkOptionInBetweenAutoSalesOrderAndAutoSalesInvoice"/>
+          <include name="verifyLinkandDeleteOptionsinSalesQuotationAndSelectingLinkOption"/>
+          <include name="checkSelectingQuantityinLinkValueOptionBetweenSalesQuotationsAndExcessinStocks"/>
+          <include name="verifyLinkandDeleteOptionsinSalesInvoiceNAndSelectingLinkOption"/>
+          <include name="verifySaveButtonWithSingleVoucher"/>
+          <include name="verifyOptionsInDesignWorkFlow"/>
+          <include name="checkLinkandDeleteOptionsinPurchaseorders2"/>
+          <include name="verifySelectingStockTransferfromVoucherlist"/>
+          <include name="checkMappingFromSalesInvoiceToSalesReturns"/>
+          <include name="checkOkBetweenBetweenSalesInvoiceNAndDeliveryNotes"/>
+          <include name="checkOkBetweenBetweenPurchaseVoucherAndPurchaseReturns"/>
+          <include name="verifySelectingSalesReturnsfromVoucherlist"/>
+          <include name="checkLinkBetweenAutoSalesOrderandSalesInvoice"/>
+          <include name="checkSelectingQuantityinLinkValueOptionBetweenMRNAndPurchaseReturns"/>
+          <include name="checkLinkBetweenSalesQuotationAndSalesOrder"/>
+          <include name="checkOkBetweenBetweenExcessinStockAndShortageinStocks"/>
+          <include name="checkSelectingtheExtrafieldforoptionBasedonFields"/>
+          <include name="checkLinkBetweenMRandPurchaseOrders"/>
+          <include name="checkSelectingItemOptionBetweenExcessinStocksShortageinStocks"/>
+          <include name="checkOkBetweenBetweenExcessinStockAndStockTransfer"/>
+          <include name="checkEditingSavedPurchasesFlow"/>
+          <include name="checkSelectingQuantityinLinkValueOptionBetweenPurchaseVoucherAndPurchaseReturns"/>
+          <include name="checkLinkandDeleteOptionsinExcessinStocks2AndSelectingLinkOption"/>
+          <include name="checkMovingPurchaseOrderToPosition"/>
+          <include name="checkOkBetweenBetweenAutoSalesOrderAndSalesInvoice"/>
+          <include name="checkLinkBetweenPurchaseVoucherAndpurchaseReturns"/>
+          <include name="checkLinkBetweenMRNAndPurchasereturns"/>
+          <include name="checkOkBetweenBetweenPurchaseVoucherNAndMRN"/>
+          <include name="checkSelectingQuantityinLinkValueOptionBetweenMRandPurchaseOrders"/>
+          <include name="checkLinkBetweenSalesInvoiceAndSalesReturns"/>
+          <include name="verifyLinkValueOptions"/>
+          <include name="checkLinkBetweenPurchaseOrderAndpurchaseVoucherVAT"/>
+          <include name="checkSelectingItemOptionBetweenPurchaseVoucherNAndMRN"/>
+          <include name="checkSelectingItemOptionBetweenPurchseOrdersAndPurchaseVoucherVAT"/>
+          <include name="verifySettingTabOptions"/>
+          <include name="checkLinkBetweenPurchaseOrdersAndPurchaseVoucher"/>
+          <include name="checkSelectingPurchaseVoucherfromVoucherlist"/>
+          <include name="checkCloseAndLogoutTheCompany"/>
+          <include name="verifyPropertiesTabOptions"/>
+          <include name="checkSelectingItemOptionBetweenSalesQuotationsAndExcessinStocks"/>
+          <include name="checkMappingFromExcessinStocksToStockTransfer"/>
+          <include name="checkLinkBetweenExcessinStocksToStockTransfers"/>
+          <include name="verifyLinkandDeleteOptionsinExcessinStocksAndSelectingLinkOption"/>
+          <include name="checkLinkBetweenPurchaseVoucherAndMRN"/>
+          <include name="checkOkBetweenBetweenMRNAndPurchaseReturns"/>
+          <include name="verifyLinkandDeleteOptionsinSalesOrdersAndSelectingLinkOption"/>
+          <include name="checkSelectingItemOptionBetweenMRNAndPurchaseReturns"/>
+          <include name="checkSelectingQuantityinLinkValueOptionBetweenPurchaseOrdersAndPurchaseVoucher"/>
+          <include name="checkLinkBetweenExcessinStocksToShoratgeinStocks"/>
+          <include name="checkMappingFromSalesQuotationToExcessinStocks"/>
+          <include name="checkSelectAndDragVoucherPurchaseOrder"/>
+          <include name="checkSavingPurchasesFlow"/>
+          <include name="checkOkBetweenBetweenSalesInvoicesrAndSalesReturns"/>
+          <include name="checkOkBetweenMRandPurchaseOrders"/>
+          <include name="verifyMovingExcessInStocksToPosition"/>
+          <include name="verifySelectingMRNfromVoucherlist"/>
+          <include name="checkLinkandDeleteOptionsinMRN"/>
+          <include name="verifySelectBaseAndLinkVouchersToDrag"/>
+          <include name="verifySelectingShortageinStocksfromVoucherlist"/>
+          <include name="checkMappingFromSalesInvoiceNToDeliveryNotes"/>
+          <include name="verifyLinkandDeleteOptionsinSalesInvoiceAndSelectingLinkOption"/>
+          <include name="afterMethodExecution"/>
+          <include name="checkSelectingQuantityinLinkValueOptionBetweenAutoSalesOrderandSalesInvoice"/>
+          <include name="checkOkBetweenBetweenSalesOrderAndSalesInvoices"/>
+          <include name="checkEnabletheOptionCheckStockWhileLinking"/>
+          <include name="verifySelectingSalesVoucherTypesfromVoucherlist"/>
+          <include name="checkLinkandDeleteOptionsinStockTransferAndSelectingLinkOption"/>
+          <include name="checkSelectingItemOptionBetweenSalesOrderAndSalesInvoices"/>
+          <include name="verifyInputWorkFlowName"/>
+          <include name="verifySelectingsalesInvoicesNfromVoucherlist"/>
+          <include name="checkLinkBetweenSalesOrderAndSalesInvoice"/>
+          <include name="verifyMovingDeliveryNotesToPosition"/>
+          <include name="verifySelectingDeliveryNotesfromVoucherlist"/>
+          <include name="verifyMappingFromSalesQuotationsToSalesOrder"/>
+          <include name="verifyMovingStockTransferToPosition"/>
+          <include name="checkLinkBetweenSalesInvoiceNToDeliveryNotes"/>
+          <include name="verifySelectingLinkButtoninSalesQuotations"/>
+          <include name="verifyOptionsInLinkBetweenBaseAndLinkVouchers"/>
+          <include name="checkSelectingQuantityinLinkValueOptionBetweenSalesInvoiceNAndDeliveryNotes"/>
+          <include name="checkLinkandDeleteOptionsinMR"/>
+          <include name="checkSelectingItemOptionBetweenPurchaseVoucherAndPurchaseReturns"/>
+          <include name="checkSelectingQuantityinLinkValueOptionBetweenSalesInvoicesAndSalesReturns"/>
+          <include name="verifySavingVouchersWithHavingLink"/>
+          <include name="checkSelectingMaterialRequisitionfromVoucherlist"/>
+          <include name="checkSelectingPurchaseVoucherVatfromVoucherlist"/>
+          <include name="checkMappingFromAutoSalesOrderToSalesInvoice"/>
+          <include name="verifySaveButtonWithoutWorkFlowName"/>
+          <include name="verifyLinkandDeleteOptionsinPurchaseorders"/>
+          <include name="checkSelectingQuantityinLinkValueOptionBetweenStockTransferAndSalesInvoiceN"/>
+          <include name="verifySelectingQuantityinLinkValueOptionBetweenExcessinStocksAndShortageinStocks"/>
+          <include name="verifySelectingSalesInvoicesfromVoucherlist"/>
+          <include name="verifyWorkFlowOptions"/>
+          <include name="checkSelectingQuantityinLinkValueOptionBetweenExcessinStocksAndStockTransfer"/>
+          <include name="verifyMovingPurchaseReturnsToPosition"/>
+          <include name="checkUpdatedTestFlow"/>
+          <include name="verifySelectingPurchaseReturnsfromVoucherlist"/>
+          <include name="checkDeletingTestFlow"/>
+          <include name="checkSelectingNarration"/>
+          <include name="checkMappingBetweenMRNandPurchaseReturns"/>
+          <include name="verifyMovingSalesInvoicesToPosition"/>
+          <include name="verifyMovingMRNToPosition"/>
+          <include name="checkInputingWorkflowNameAsPurchasesFlow"/>
+          <include name="checkOkBetweenBetweenPurchaseOrdersAndPurchaseVoucher"/>
+          <include name="checkOkBetweenBetweenSalesQuotationsAndExcessinStock"/>
+          <include name="checkSelectingItemOptionBetweenStockTransferAndSalesInvoiceN"/>
+          <include name="checkSelectingItemOptionBetweenSalesInvoicesAndSalesReturns"/>
+          <include name="checkSelectingQuantityinLinkValueOptionBetweenPurchaseOrdersAndPurchaseVoucherVAT"/>
+          <include name="checkMappingBetweenPurchaseOrdersAndPurchaseVoucherN"/>
+          <include name="checkMappingFromStockTransferToSalesInvoiceN"/>
+          <include name="checkSaveWorkflowAsSalesFlow"/>
+          <include name="verifyOkButtonWithoutSelectionOfMandatoryFields"/>
+          <include name="verifyLinkNodeLineFromBaseVoucherToLinkVoucher"/>
+          <include name="checkMovingAutoSalesOrderToPosition"/>
+          <include name="checkMappingBetweenPurchaseVoucherNAndMRN"/>
+          <include name="verifyOkButtonWithSelectionOfMandatroryFields"/>
+          <include name="checkSelectingQuantityinLinkValueOptionBetweenSalesOrderAndSalesInvoices"/>
+          <include name="checkSelectingQuantityinLinkValueOptionBetweenSalesQuotationAndSalesOrder"/>
+          <include name="checkMovingShortageinStocksToPosition"/>
+          <include name="checkSelectingQuantityinLinkValueOptionBetweenPurchaseVoucherNAndMRN"/>
+          <include name="checkUpdatingSavedTestFlow"/>
+          <include name="checkLinkandDeleteOptionsinPurchaseVoucher"/>
+          <include name="verifyOpenDesignWorkFlow"/>
+          <include name="verifySaveWorkFlowNameDisplay"/>
+          <include name="checkOkBetweenPurchaseOrderAndPurchaseVocuherVAT"/>
+          <include name="verifyLinkValue"/>
+          <include name="verifyMovingSalesOrderToPosition"/>
+          <include name="checkMappingBetweenPurchaseOrdersAndPurchaseVoucher"/>
+          <include name="verifyMovingSalesReturnsToPosition"/>
+          <include name="checkSelectingItemOptionBetweenSalesInvoiceNAndDeliveryNotes"/>
+          <include name="verifySaveButtonInDesignWorkflowScreen"/>
+          <include name="checkMappingBetweenMRtoPurchaseOrders"/>
+          <include name="checkSelectingItemOptionBetweenSalesQuotationAndSalesOrder"/>
+          <include name="checkLinkBetweenSalesQuotationsToExcessinStocks"/>
+          <include name="beforeMethodExecution"/>
+          <include name="verifyMappingFromSalesOrderToSalesInvoice"/>
+          <include name="checkMovingPurchaseVoucherVATToPosition"/>
+          <include name="checkMappingBetweenPurchaseVoucherAndPurchseReturns"/>
+          <include name="checkLinkandDeleteOptionsinPurchasevouchersVat"/>
+          <include name="verifyMovingsalesInvoicesNToPosition"/>
+          <include name="checkSelectingItemOptionBetweenExcessinStocksStockTransfer"/>
+          <include name="verifySelectingExcessInStocksfromVoucherlist"/>
+          <include name="verifySelectingSalesOrdersfromVoucherlist"/>
+          <include name="checkSelectingItemOptionBetweenAutoSalesOrderAndSalesInvoice"/>
+          <include name="verifyLinkandDeleteOptionsinSalesQuotations"/>
+          <include name="checkSelectingPurcahseOrdersfromVoucherlist"/>
+          <include name="checkOkBetweenBetweenStockTransferAndSalesInvoiceN"/>
+          <include name="checkLinkandDeleteOptionsinAutoSalesOrderAndSelectingLinkOption"/>
+        </methods>
+      </class> <!-- com.focus.testcases.SmokeDesignWorkFlowTest -->
+      <class name="com.focus.testcases.SmokeMasterAuthorizationDefinitionTest">
+        <methods>
+          <include name="checkSavedEmailTemplateInEmailTemplate"/>
+          <include name="checkSavedNameDisplayInNameTextBox"/>
+          <include name="checkLoginWithValidUserNameAndPasswordToCheckMasterAuthorization"/>
+          <include name="checkCloseAndLogoutTheCompany"/>
+          <include name="checkSaveWithAllMandatoryInputs"/>
+          <include name="checkCancelButton"/>
+          <include name="checkFieldsTabMasterFieldsOptions"/>
+          <include name="checkEditMasterAuthorizationSettings"/>
+          <include name="checkAlertMessageOnDeleteAuthorization"/>
+          <include name="checkCancelInAlertDeleteOption"/>
+          <include name="checkFieldsTabMiscellaneousOptions"/>
+          <include name="checkSavingMasterAuthorization"/>
+          <include name="checkFieldsTabUserDetailsOptions"/>
+          <include name="checkDesignAreaPrintScreen"/>
+          <include name="beforeMethodExecution"/>
+          <include name="checkCreatedEmailInEmailHedaerTemplate"/>
+          <include name="checkEditOnSelectAlertsTabOptions"/>
+          <include name="checkSaveButtonWithCondition"/>
+          <include name="checkOkInAlertDeleteOption"/>
+          <include name="checkConditionCheckbox"/>
+          <include name="checkSavedSMSTemplateInTemplate"/>
+          <include name="checkUserDropdownOptions"/>
+          <include name="checkEmailTemplateCompanyExpandInFieldsTabOptions"/>
+          <include name="checkSaveAuthorizationWithConditionAndAlerts"/>
+          <include name="checkExitOptionInLayout"/>
+          <include name="checkSavedAlertTemplateInTemplate"/>
+          <include name="afterMethodExecution"/>
+          <include name="checkOkButtonOnSelectingUser"/>
+          <include name="checkFieldsDragInHeaderOptions"/>
+        </methods>
+      </class> <!-- com.focus.testcases.SmokeMasterAuthorizationDefinitionTest -->
+      <class name="com.focus.testcases.ConfigureMasterTest">
+        <methods>
+          <include name="checkAddedTabFieldAndTreeCustomizationupdates"/>
+          <include name="beforeMethodExecution"/>
+          <include name="checkSavedMaserInMastersListAndSaveRecord"/>
+          <include name="checkSavedMasterAndUpdatingTheMaster"/>
+          <include name="checkNewlyAddedFieldInMasterTree"/>
+          <include name="checkValidatingRuleWithIfConditionForChildMaster"/>
+          <include name="afterMethodExecution"/>
+          <include name="checkDeletigCreatedMasterWithTheRecord"/>
+          <include name="checkImportingMasterInConfigureMastersAndValidateInMastersList"/>
+        </methods>
+      </class> <!-- com.focus.testcases.ConfigureMasterTest -->
+      <class name="com.focus.testcases.MasterAccountsTest">
+        <methods>
+          <include name="beforeMethodExecution"/>
+          <include name="verifyCustomizeMasterTabMasterFieldsOptionAfterAddingTabs"/>
+          <include name="verifyDocumentTabInPreviewOption"/>
+          <include name="afterMethodExecution"/>
+          <include name="verifyDefaultDeleteInSettingsTab"/>
+        </methods>
+      </class> <!-- com.focus.testcases.MasterAccountsTest -->
+      <class name="com.focus.testcases.SecuritySmokeTest">
+        <methods>
+          <include name="checkClickOnLeftArrowIconWitSelectProfile"/>
+          <include name="checkLogoutAndLoginWithNewlySavedUser"/>
+          <include name="checkLogoutUserSecurityPage"/>
+          <include name="checkCreateProfileSalesInvoiceSelectingSuspendOnSavingAndHideMenuCheckBoxes"/>
+          <include name="checkUserDataInSavedUser"/>
+          <include name="checkSavingUserWithRoleST"/>
+          <include name="checkCompareAndDeleteUpdatedRole"/>
+          <include name="checkUserDataInUpdatedUser"/>
+          <include name="checkEditAndUpdateSavedRole"/>
+          <include name="checInputMandatoryFieldsInCreateUser"/>
+          <include name="checkDeletingUpdatedUser"/>
+          <include name="checkLogoutAndLoginWithSU"/>
+          <include name="checkCreateProfileLoadFromAllProfileAndValidatePurchasesVouchers"/>
+          <include name="checkCreateProfileSubMenus"/>
+          <include name="checkCreateProfileFinancialsTransactionsSalesSalesInvoiceRestrictionsTab"/>
+          <include name="beforeMethodExecution"/>
+          <include name="checkCreateProfileValidatingSalesInvoiceAfterSavingEditedProfile"/>
+          <include name="checkCreateProfileValidatingSalesInvoice"/>
+          <include name="checkLogoutAndLoginWithSUToUpdatedUserDeleteUser"/>
+          <include name="verifyGetTheSimplePasswordPolicy"/>
+          <include name="checkCreateProfileHomeMastersAccountRestrictionsTab"/>
+          <include name="checkSavingUserWithExclusion"/>
+          <include name="checkCreateProfileSavingValidatingAndDeletingLoadedProfile"/>
+          <include name="checkSaveingRoleWithAllfieldsInAllTabs"/>
+          <include name="checkLoginWithUpdatedPassword"/>
+          <include name="report_Filter_RefreshConditionBtn"/>
+          <include name="afterMethodExecution"/>
+          <include name="checkEditingAndUpdatingSavedUser"/>
+          <include name="checkLogoutAndLoginWithUpdatedUserWithPreviousPassword"/>
+          <include name="checkSavingUserWithRoleSTRestriction"/>
+        </methods>
+      </class> <!-- com.focus.testcases.SecuritySmokeTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
